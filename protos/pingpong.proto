@@ -10,5 +10,5 @@ message Ping {
 
 message Pong {
     inst32 count = 1;
+} 
 
-}
