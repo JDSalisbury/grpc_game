@@ -1,14 +1,14 @@
-syntax = "proto3"
+syntax = "proto3";
 
 service PingPongService {
     rpc ping (Ping) returns (Pong) {}
 }
 
 message Ping {
-    inst32 count = 1;
+    int32 count = 1;
 }
 
 message Pong {
-    inst32 count = 1;
+    int32 count = 1;
 } 
 
